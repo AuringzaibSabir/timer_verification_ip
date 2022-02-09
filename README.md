@@ -58,7 +58,7 @@ git clone https://github.com/AuringzaibSabir/timer_verification_ip
 ```
 
 ## For running verification IP with different number of contraint random test
-Redirect to `path` to test a specific `design` using verification IP. For testing `timer` redirect to following path.
+Redirect to the following `path` to test the `timer`
 ```
 cd timer_verification_ip/timer/
 ```
@@ -77,9 +77,9 @@ Note you can observe the test results in `test_result.txt` file
 
 ### Can also run the single test by following steps
 
-Redirect to `path` to test a specific `design` using verification IP. For testing `timer` redirect to following path.
+Redirect to the following `path` to test the `timer`
 ```
-common_peripheral_vips/verif/vips/timer/
+cd timer_verification_ip/timer/
 ```
 Excecute the `command`
 ```
