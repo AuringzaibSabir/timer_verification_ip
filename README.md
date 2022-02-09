@@ -60,7 +60,7 @@ git clone https://github.com/AuringzaibSabir/timer_verification_ip
 ## For running verification IP with different number of contraint random test
 Redirect to `path` to test a specific `design` using verification IP. For testing `timer` redirect to following path.
 ```
-timer_verification_ip/timer/
+cd timer_verification_ip/timer/
 ```
 
 Excecute the `command` python run_test.py < enter number of test to run >
