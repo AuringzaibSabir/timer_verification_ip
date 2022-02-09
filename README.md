@@ -5,7 +5,7 @@
 
 This repository contains the verification IP of a Timer
 
-## Features of a Timer IP
+# Features of a Timer IP
 
 1. 64-bit timer with 12-bit prescaler and 8-bit step register
 2. Compliant with RISC-V privileged specification v1.11
@@ -18,7 +18,7 @@ The timer module provides a configurable number of 64-bit counters where each co
 The timer IP provides memory-mapped registers mtime and mtimecmp which can be used as the machine-mode timer registers defined in the RISC-V privileged spec. Additional features such as prescaler, step, and a configurable number of timers and harts have been added.
 
 
-## Features of a Timer verification IP
+# Features of a Timer verification IP
 
 The verification IP is build on Universal verification methodology (UVM) that contain `Constrained Random Testbenches`.
 
@@ -46,7 +46,7 @@ Note: Configuration of the timer is completely randomize by UVM testing environm
 10. Compare the number of clock cycles after which `intr_timer_expired_0_0_o` signal is enabled with the predicted clock cycle calculated before (mentioned in point 7).
 11. If comparison is succussful then contrained random UVM test is `PASSED`.
 
-## How to run the verification IP?
+# How to run the verification IP?
 
 Clone respositaries [common_peripheral_ip](https://github.com/merledu/common_peripheral_ips) and [common_peripheral_vips](https://github.com/merledu/common_peripheral_vips) that contain IP and verification IP respectively. Clone the mentioned repositories parallel to each other using following couple of `commands`
 
