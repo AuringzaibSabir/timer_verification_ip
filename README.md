@@ -47,3 +47,41 @@ Note: Configuration of the timer is completely randomize by UVM testing environm
 11. If comparison is succussful then contrained random UVM test is `PASSED`.
 
 ## How to run the verification IP?
+
+Clone respositaries [common_peripheral_ip](https://github.com/merledu/common_peripheral_ips) and [common_peripheral_vips](https://github.com/merledu/common_peripheral_vips) that contain IP and verification IP respectively. Clone the mentioned repositories parallel to each other using following couple of `commands`
+
+```
+git clone https://github.com/merledu/common_peripheral_ips
+```
+```
+git clone https://github.com/AuringzaibSabir/timer_verification_ip
+```
+
+## For running verification IP with different number of contraint random test
+Redirect to `path` to test a specific `design` using verification IP. For testing `timer` redirect to following path.
+```
+timer_verification_ip/timer/
+```
+
+Excecute the `command` python run_test.py < enter number of test to run >
+
+```
+python run_test.py 100
+```
+
+In above command `100` means 100 constraint random test will be generated.
+
+Note you can observe the test results in `test_result.txt` file
+
+## OR
+
+### Can also run the single test by following steps
+
+Redirect to `path` to test a specific `design` using verification IP. For testing `timer` redirect to following path.
+```
+common_peripheral_vips/verif/vips/timer/
+```
+Excecute the `command`
+```
+./command
+```
