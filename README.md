@@ -51,10 +51,10 @@ Note: Configuration of the timer is completely randomize by UVM testing environm
 Clone respositaries [common_peripheral_ip](https://github.com/merledu/common_peripheral_ips) and [common_peripheral_vips](https://github.com/merledu/common_peripheral_vips) that contain IP and verification IP respectively. Clone the mentioned repositories parallel to each other using following couple of `commands`
 
 ```
-git clone https://github.com/merledu/common_peripheral_ips
+git clone https://github.com/merledu/common_peripheral_ips.git
 ```
 ```
-git clone https://github.com/AuringzaibSabir/timer_verification_ip
+git clone https://github.com/AuringzaibSabir/timer_verification_ip.git
 ```
 
 ## For running verification IP with different number of contraint random test
